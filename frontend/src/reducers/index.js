@@ -7,6 +7,13 @@ export default combineReducers({
   router: routerReducer
 })
 
+export function withAuth(headers={}) {
+  return (state) => ({
+    ...headers,
+    'Authorization': `Bearer ${accessToken(state)}`
+  })
+}
+
 export const isAuthenticated =
  state => fromAuth.isAuthenticated(state.auth)
 export const accessToken = 

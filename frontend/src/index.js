@@ -4,7 +4,7 @@ import createHistory from 'history/createBrowserHistory'
 import { ConnectedRouter } from 'react-router-redux'
 import { Provider } from 'react-redux'
 import * as serviceWorker from './serviceWorker';
-import {Route, Switch, Router} from 'react-router'
+import { Route, Switch, Router } from 'react-router'
 import Login from './containers/Login';
 import PrivateRoute from './containers/PrivateRoute';
 

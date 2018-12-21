@@ -18,7 +18,7 @@ export default (state=initialState, action) => {
           ...jwtDecode(action.payload.refresh)
         },
         errors: {}
-    }
+      }
     case auth.TOKEN_RECEIVED:
       return {
         ...state,
