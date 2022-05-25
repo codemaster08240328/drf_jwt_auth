@@ -11,7 +11,7 @@ idna==2.8
 itypes==1.1.0
 Jinja2==2.10
 MarkupSafe==1.1.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2018.7
 requests==2.21.0
 six==1.12.0
